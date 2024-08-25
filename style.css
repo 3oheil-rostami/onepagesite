@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-right: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    margin-top: 8px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+
+
+
+.learn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 3.5rem;
+    padding-left: 20px;
+    font-size: 2.5rem;
+    border-radius: 10px;
+    color: rgb(84, 73, 73);
+    background-color: lightgray;
+}
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-right: -2.1rem;
+    margin-top: 8px;
+}
+.orang {
+    color: orange;
+    margin-right: -1px;
+}
+
+.search-container {
+    width: 600px;
+    height: 3.5rem;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 0px 0px darkgray ;
+    border-radius: 10px;
+}
+form {
+    display: flex;
+    background-color: #ffff;
+    width: 600px;
+    height: 3.5rem;
+}
+form input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+form button {
+    background-color: rgb(125, 202, 11);
+    padding: 10px 25px;
+    border: none;
+    color: #ffff;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px 0 0 10px;
+}
+.soheil {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 90px;
+}
+.icon-call {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(208, 255, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.icon-call span {
+    color: green;
+    font-size: 1.1rem;
+    /* margin: auto; */
+    padding-left: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contant {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(243, 212, 156);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 10px;
+   
+}
+
+.contant span {
+    color: orange;
+    font-size: 1.1rem;
+    /* margin: auto; */
+    padding-left: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.lock-icon span {
+    margin-left: -15px;
+}
+.first {
+    margin-right: 4rem;
+    width: 1250px;
+    margin-top: 2rem;
+    border: 1px solid lightgray;
+}
+
+.navbar {
+    margin-top: 15px;
+    margin-right: -3rem;
+    display: flex;
+    width: 850px;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(77, 57, 57);
+}
+a:hover {
+    color: orange;
+}
+
+.second {
+    margin-right: 4rem;
+    width: 720px;
+    margin-top: 1.4rem;
+    border: 1px solid lightgray;
+    border: .5px solid lightgray;
+    box-shadow: .1px .1px darkgray;
+}
+
+.aside {
+    display: inline-block;
+    width: 50%;
+    height: 450px;
+    margin-top: 70px;
+    margin-right: 4rem;
+    background-color: #ffffff;
+}
+.aside h1 {
+    margin: 1rem 0 0 1rem;
+}
+.aside hr {
+    margin-top: 2.5rem;
+    margin-right: 0;
+    border: 1px solid lightgray;
+}
+
+.lorem {
+    margin-top: 2.5rem;
+    margin-right: 0;
+}
+
+.formsearch {
+    /* margin-top: 3.5rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.formsearch form {
+    margin-right: 0;
+    margin-top: 3.5rem;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    
+}
+.serachlogo {
+    border-radius: 0;
+    background-color: orange;
+    width: 10%;
+    justify-content: center;
+    padding-right: 0px;
+}
+.cntainer-butom {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.eyse {
+    width: 250px;
+    height: 5.5rem;
+    background-color: #ffffff;
+    margin-right: -1.5rem;
+    /* border: .5px solid lightgray; */
+    border-radius: 10px;
+    box-shadow: 2px 0px 2px 5px rgb(246, 241, 241);
+}
+
+.eyse i {
+    margin-right: -1rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+    color: rgb(237, 203, 139);
+
+}
+
+.eyse h3{
+    margin-top: .8rem;
+    display: inline-block;
+   
+}
+.eyse p {
+    margin-top: 50px;
+    margin-right: -7.3rem;
+    color: lightgray;
+}
+
+.eyse {
+    display: flex;
+}
+
+.lamp {
+    width: 250px;
+    height: 5.5rem;
+    background-color: #ffffff;
+    margin-left: -1.5rem;border-radius: 10px;
+    box-shadow: 2px 0px 2px 5px rgb(246, 241, 241);
+}
+.lamp i {
+    margin-right: -1rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+    color: rgb(237, 203, 139);
+}
+
+.lamp h3{
+    margin-top: .8rem;
+    display: inline-block;
+   
+}
+.lamp p {
+    margin-top: 50px;
+    margin-right: -7.3rem;
+    color: lightgray;
+}
+
+.lamp {
+    display: flex;
+}
+
+.second {
+    border: .3px solid #fffcfc;
+}
+
+.beside {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+}
+img {
+    width: 500px;
+    margin-bottom: -2.2rem;
+    margin-right: 9rem;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 10px 10px 0 0 lightgray;
+}
